@@ -1,1 +1,124 @@
-/* Other rules */
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"), url(./assets/fonts/Helvetica.ttf) format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: local("HelveticaNeueRegular"),
+    url(./assets/fonts/HelveticaNeueRegular.woff) format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: local("HelveticaNeueBold"),
+    url(./assets/fonts/HelveticaNeueBold.woff) format("woff");
+  font-weight: bold;
+}
+
+body {
+  font-family: "Helvetica";
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  color: darkgrey;
+}
+
+.iconH {
+  margin: 0 100px;
+  font-size: 80px;
+}
+
+header p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.btnAddCounter,
+.btnReset {
+  border: none;
+  background-color: #117bc2;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+}
+
+.Counter {
+  width: 400px;
+  margin: 50px 30px 30px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.boxIcon {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.iconM,
+.iconP {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.iconM:hover,
+.iconP:hover,
+.btnAddCounter:hover,
+.btnReset:hover {
+  cursor: pointer;
+}
+
+.count p {
+  font-size: 80px;
+}
+
+.count {
+  margin: 0 25px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.Footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Footer p {
+  font-size: 25px;
+  margin-left: 0;
+}
